@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frank Portfolio | Loyihalar</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- 🔝 Navigatsiya -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Frank<span>Dev</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Bosh sahifa</a></li>
+          <li><a href="about.html">Men haqimda</a></li>
+
+          <li><a href="projects.html" class="active">Loyihalar</a></li>
+
+          <li><a href="contact.html">Bog‘lanish</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 📂 Loyihalar -->
+  <section class="projects-page fade-in">
+    <div class="container">
+      <h2 class="slide-up">Loyihalarim</h2>
+      <div class="project-grid">
+        <div class="project-card zoom-in" onclick="openModal('modal1')">
+          <img src="assets/images/website1.jpg" alt="E-commerce sayt" loading="lazy" />
+          <h4>E-commerce Web App</h4>
+          <p>React.js, ASP.NET Core, PostgreSQL</p>
+        </div>
+        <div class="project-card zoom-in" onclick="openModal('modal2')">
+          <img src="assets/images/website2.jpg" alt="Portfolio sayt" loading="lazy" />
+          <h4>Portfolio Sayt</h4>
+          <p>HTML, CSS, JavaScript, GitHub Pages</p>
+        </div>
+        <div class="project-card zoom-in" onclick="openModal('modal3')">
+          <img src="assets/images/website3.jpg" alt="Blog platforma" loading="lazy" />
+          <h4>Markdown Blog</h4>
+          <p>Node.js, Express, MongoDB</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🪟 Modal oynalar -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h3>E-commerce Web App</h3>
+      <p>Bu loyiha React.js frontend va ASP.NET Core backend bilan yaratilgan. Mahsulotlar, savat, to‘lov tizimi va
+        admin panel mavjud.</p>
+      <a href="https://github.com/frank/ecommerce" target="_blank">GitHub →</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h3>Portfolio Sayt</h3>
+      <p>Statik HTML/CSS/JS asosida yaratilgan portfolio. GitHub Pages orqali deploy qilingan.</p>
+      <a href="https://frank.github.io" target="_blank">Saytni ko‘rish →</a>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <h3>Markdown Blog</h3>
+      <p>Node.js va Express asosida yaratilgan blog platforma. Foydalanuvchilar Markdown formatida maqola yozishi
+        mumkin.</p>
+      <a href="#">Demo →</a>
+    </div>
+  </div>
+
+  <!-- 🔚 Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Frank Portfolio. Barcha huquqlar himoyalangan.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
