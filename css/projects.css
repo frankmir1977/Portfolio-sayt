@@ -97,3 +97,16 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+.project-card-p {
+
+  padding: 10px 20px;
+  font-style: italic;
+}
+
+.project-card-h4 {
+  background-image: linear-gradient(to right, rgb(233, 202, 202), rgb(255, 255, 255));
+  ;
+  padding: 15px 20px;
+
+}
