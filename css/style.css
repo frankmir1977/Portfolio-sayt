@@ -96,6 +96,7 @@ footer {
   max-width: 1200px;
   margin: auto;
   padding: 0 1rem;
+
 }
 
 /* Navigatsiya */
@@ -134,7 +135,7 @@ footer {
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .nav-links {
+  .menu {
     flex-direction: column;
     align-items: center;
   }
@@ -199,4 +200,12 @@ li {
 
 .btn-outline {
   text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+}
+
+.linklar {
+  margin: 20px;
 }
