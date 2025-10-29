@@ -3,6 +3,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f9f9f9;
   color: #333;
+  background-image: linear-gradient(to bottom, #261b11, #ffffff);
 }
 
 .hero {
@@ -208,6 +209,8 @@ li {
 
 .btn-outline {
   text-decoration: underline;
+  display: inline-flex;
+  margin: 20px;
 }
 
 .menu {
@@ -216,6 +219,7 @@ li {
 
 .linklar {
   margin: 20px;
+  color: white;
 
 
 
