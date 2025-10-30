@@ -37,3 +37,10 @@
 .about-h2 {
   color: rgb(223, 150, 150);
 }
+
+.skills {
+  margin-top: 20px;
+  color: rgb(48, 217, 96);
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
