@@ -1,8 +1,13 @@
 .profile_rasm {
   width: auto;
   height: auto;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 16/19;
+  object-fit: cover;
+  background-color: aqua;
+  border-radius: 2px;
+  object-position: top center;
 }
 
 @media (max-width: 768px) {
@@ -16,4 +21,19 @@
 
 .menu {
   display: flex;
+}
+
+.about-text {
+  color: white;
+
+}
+
+.skills-list {
+
+  text-shadow: 2px 2px 4px rgba(6, 62, 29, 0.8);
+
+}
+
+.about-h2 {
+  color: rgb(223, 150, 150);
 }
