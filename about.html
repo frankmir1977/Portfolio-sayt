@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Frank Portfolio | Men haqimda</title>
+  <title>Anvar Portfolio | Men haqimda</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/about.css">
   <script defer src="js/main.js"></script>
@@ -12,16 +12,21 @@
 
 <body>
 
-  <div class="gamburg_div">
-    <img src="assets/images/gamburger-menu.svg" alt="" class="gamburg_img">
+  <div class="sticky">
+    <div class="gamburg_div">
+      <img src="assets/images/gamburger-menu.svg" alt="" class="gamburg_img">
+
+    </div>
+    <h1 class="logo">PORTFOLIO WEBSITE</h1>
   </div>
+
 
 
   <!-- 🔝 Navigatsiya -->
   <header class="navbar">
     <div class="container">
-      <h1 class="logo">PORTFOLIO WEBSITE</h1>
-      <hr>
+
+
       <nav class="menu">
 
         <a href="index.html" class="linklar">Bosh sahifa</a>
@@ -41,18 +46,63 @@
       <h2 class="about-h2">Men haqimda</h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>Men <strong>Frank</strong>, web dasturchiman. GitHub, terminal, deployment va Agile metodologiyalar bilan
-            ishlashni yaxshi ko‘raman. Men real loyihalar ustida ishlash orqali o‘rganishni afzal ko‘raman va har bir
-            xatolikdan saboq olaman.</p>
-          <p class="skills">Men quyidagi texnologiyalar bilan ishlayman:</p>
-          <ul class="skills-list">
-            <li>HTML5, CSS3, JavaScript (Vanilla)</li>
-            <li>React.js</li>
-            <li>ASP.NET CORE WEB API</li>
-            <li>ASP.NET CORE MVC</li>
-            <li>Windows Forms Application</li>
-            <li>SQL Server</li>
-          </ul>
+          <p>Men Anvarman, web dasturchiman. Zamonaviy web ilovalar ishlab chiqish, backend tizimlarini yaratish,
+            ma’lumotlar bazasi bilan ishlash va foydalanuvchi uchun qulay interfeyslar ishlab chiqishga
+            ixtisoslashganman. Shuningdek, logistika sohasida ham tajribam bor, bu menga jarayonlarni samarali
+            boshqarish va tizimli fikrlashni o‘rgatgan. Freelance faoliyatim davomida esa mustaqil ishlash, mijozlar
+            bilan samarali muloqot qilish va turli loyihalarni muvaffaqiyatli yakunlash ko‘nikmalarini
+            rivojlantirganman.</p>
+          <div class="texnik_skills">
+            <p class="skills">Texnik ko'nikmalarim:</p>
+            <p class="skills">Frontend:</p>
+            <ul class="skills-list">
+              <li>HTML5, CSS3, JavaScript (Vanilla)</li>
+              <li>React.js</li>
+              <li>Responsive dizayn va UI/UX asoslari</li>
+            </ul>
+            <p class="skills">Backend:</p>
+            <ul class="skills-list">
+              <li>C#, ASP.NET Core</li>
+              <li>Entity Framework Core va LINQ</li>
+              <li>RESTful API ishlab chiqish</li>
+              <li>Server side logika va autentifikatsiya</li>
+            </ul>
+            <p class="skills">Ma’lumotlar bazasi:</p>
+            <ul class="skills-list">
+              <li>T-SQL, SQL Server</li>
+              <li>Ma’lumotlar bazasi dizayni va optimallashtirish</li>
+              <li>Murakkab so'rovlar va stored procedure</li>
+            </ul>
+            <p class="skills">Desktop dasturlash:</p>
+            <ul class="skills-list">
+              <li>Windows Forms Application</li>
+              <li>Desktop ilovalar yaratish va boshqarish</li>
+              <li>Windows API va .NET Framework</li>
+            </ul>
+            <p class="skills">Versiya nazorati:</p>
+            <ul class="skills-list">
+              <li>Git va GitHub</li>
+              <li>Agile metodikasi va Scrum</li>
+            </ul>
+            <p class="skills">Qo‘shimcha ko'nikmalar:</p>
+            <ul class="skills-list">
+              <li>Logistika sohasi</li>
+              <li>Freelance loyihalarda mustaqil ishlash va mijozlar bilan muloqot qilish</li>
+            </ul>
+
+            <p class="skills">Tillar:</p>
+            <ul class="skills-list">
+              <li>O'zbek tili</li>
+              <li>Ingliz tili</li>
+              <li>Turk tili</li>
+            </ul>
+          </div>
+
+
+
+
+
+
         </div>
         <div class="about-img">
           <img src="assets/images/Muhammadjon_va_Malika.jpg" alt="Frank rasmi" loading="lazy" class="profile_rasm" />
@@ -62,7 +112,7 @@
   </section>
 
   <!-- 📜 Timeline -->
-  <section class="timeline">
+  <!-- <section class="timeline">
     <div class="container">
       <h3>O‘quv va ish faoliyati</h3>
       <ul class="timeline-list">
@@ -85,7 +135,7 @@
 
       </ul>
     </div>
-  </section>
+  </section> -->
 
   <!-- 🏅 Sertifikatlar -->
   <section class="certificates">
@@ -93,17 +143,10 @@
       <h3>Sertifikatlar</h3>
       <div class="cert-grid">
         <div class="cert-card">
-          <img src="assets/images/cert1.jpg" alt="GitHub sertifikat" loading="lazy" />
-          <p>GitHub Workflow Mastery</p>
+          <img src="assets/images/cert1.jpg" alt="Maths sertificate" loading="lazy" />
+          <p>International Mathematics Sertificate</p>
         </div>
-        <div class="cert-card">
-          <img src="assets/images/cert2.jpg" alt="Deployment sertifikat" loading="lazy" />
-          <p>Frontend Deployment Expert</p>
-        </div>
-        <div class="cert-card">
-          <img src="assets/images/cert3.jpg" alt="Agile sertifikat" loading="lazy" />
-          <p>Agile Project Management</p>
-        </div>
+
       </div>
     </div>
   </section>
@@ -111,7 +154,7 @@
   <!-- 🔚 Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Frank Portfolio. Barcha huquqlar himoyalangan.</p>
+      <p>&copy; 2025 Anvar Portfolio. Barcha huquqlar himoyalangan.</p>
     </div>
   </footer>
 </body>

@@ -89,3 +89,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		menu.classList.toggle("hidden");
 	});
 });
+
+const img = document.querySelector(".gamburg_img");
+
+img.addEventListener("click", () => {
+	img.classList.toggle("rotated");
+	// toggle qilgani uchun har bosganda aylantiradi va qaytaradi
+});

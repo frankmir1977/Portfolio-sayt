@@ -3,7 +3,8 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: #f9f9f9;
   color: #333;
-  background-image: linear-gradient(to bottom, #031923, #ffffff);
+  background-image: url('../assets/images/stars.svg'), linear-gradient(to bottom, #0A1A3F, #ffffff);
+
 
 }
 
@@ -16,7 +17,7 @@ body {
   background-size: cover;
   background-position: bottom center;
   height: 500px;
-  filter: grayscale(0.5);
+  filter: grayscale(0.6);
 
 }
 
@@ -179,10 +180,26 @@ footer {
   width: 50px;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 30px;
 
 
 }
 
+.rotated {
+  transform: rotate(180deg);
+  /* 180° aylantirish */
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  /* qaysi joyda yopishib qolishini belgilaydi */
+  background: #08273c;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+}
 
 
 
@@ -198,21 +215,30 @@ footer {
     overflow: hidden;
     max-height: 500px;
     /* menyu balandligi */
-    transition: max-height 2s ease;
+    transition: max-height 1s ease;
+
   }
 
   .menu.hidden {
     max-height: 0;
-    transition: max-height 0.8s ease-out;
+    transition: max-height 0.3s ease-out;
   }
 
   .gamburg_div {
     display: flex;
     justify-content: flex-end;
-    margin: 20px;
+    padding: 10px 20px 0 0;
+
   }
 
+
+
+
 }
+
+
+
+
 
 
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+  <defs>
+    <pattern id="dotgrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <!-- Large dot -->
+      <circle cx="10" cy="10" r="6" fill="rgba(255,255,255,0.45)"/>
+      <!-- Medium dot -->
+      <circle cx="30" cy="20" r="4" fill="rgba(255,255,255,0.35)"/>
+      <!-- Small dot -->
+      <circle cx="45" cy="40" r="2.5" fill="rgba(255,255,255,0.25)"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#203a43"/>
+  <rect width="100%" height="100%" fill="url(#dotgrid)"/>
+</svg>
