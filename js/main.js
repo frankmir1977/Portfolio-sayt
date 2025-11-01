@@ -80,3 +80,12 @@ function closeModal(id) {
 	modal.classList.remove("show");
 	setTimeout(() => (modal.style.display = "none"), 300);
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+	const burger = document.querySelector(".gamburg_div");
+	const menu = document.querySelector(".menu");
+
+	burger.addEventListener("click", () => {
+		menu.classList.toggle("hidden");
+	});
+});
