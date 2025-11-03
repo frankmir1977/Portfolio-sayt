@@ -42,26 +42,31 @@
 }
 
 .about-h2 {
-  color: rgb(223, 150, 150);
+  color: orangered;
 }
 
 .skills {
   margin-top: 20px;
-  color: rgb(223, 170, 27);
+  color: rgb(206, 170, 152);
+  text-shadow: 1px 1px 5px rgba(3, 29, 14, 0.8);
 
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .texnik_skills {
 
-  background-color: rgba(87, 94, 116, 0.5);
+  background-color: rgba(72, 52, 173, 0.5);
   padding: 20px;
   border-radius: 3px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1),
     -2px -2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
 
 }
+
+
+
 
 .about_p {
 
