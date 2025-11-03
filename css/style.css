@@ -199,14 +199,7 @@ footer {
   /* 180° aylantirish */
 }
 
-.sticky {
-  padding-bottom: 10px;
-  position: relative;
 
-  /* qaysi joyda yopishib qolishini belgilaydi */
-  z-index: 1;
-  /* z-index belgilash */
-}
 
 
 
@@ -223,8 +216,8 @@ footer {
     max-height: 500px;
     /* menyu balandligi */
     transition: max-height 1s ease;
-    position: absolute;
-    background-color: rgb(220, 42, 42);
+    position: fixed;
+    background-color: orangered;
     width: 100%;
 
     color: black;
@@ -247,13 +240,15 @@ footer {
 
   }
 
-  .sticky {
-    padding-bottom: 10px;
-    position: relative;
-
+  .eng_usti {
+    position: sticky;
+    top: 0;
     /* qaysi joyda yopishib qolishini belgilaydi */
+    background-color: rgba(8, 39, 60);
+    color: white;
+    padding: 10px;
     z-index: 1;
-    /* z-index belgilash */
+
   }
 
 

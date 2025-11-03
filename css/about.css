@@ -60,6 +60,16 @@
 
 }
 
+.eng_usti {
+  position: sticky;
+  top: 0;
+  /* qaysi joyda yopishib qolishini belgilaydi */
+  background: #08273c;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+}
+
 .about_quti {
   display: flex;
   flex-direction: column;

@@ -67,6 +67,17 @@
   transform: translateY(0);
 }
 
+.eng_usti {
+  position: sticky;
+  top: 0;
+  /* qaysi joyda yopishib qolishini belgilaydi */
+  background: #08273c;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+}
+
+
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
