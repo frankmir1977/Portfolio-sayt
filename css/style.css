@@ -14,10 +14,12 @@ body {
   text-align: center;
   padding: 4rem 2rem;
   background-image: url('../assets/images/kompyuter2.jpg');
-  background-size: cover;
+  background-size: cover auto;
+  background-repeat: no-repeat;
   background-position: bottom center;
-  height: 500px;
-  filter: grayscale(0.6);
+  height: 400px;
+  filter: saturate(0.3);
+  background-color: #29c2dd;
 
 }
 
@@ -50,14 +52,7 @@ body {
 }
 
 
-.portret {
-  max-width: 200px;
-  height: auto;
-  border-radius: 2px;
-  border: 1px dashed #000;
 
-
-}
 
 section {
   padding: 3rem 2rem;
@@ -67,6 +62,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+
 }
 
 .projects img {
@@ -115,7 +111,7 @@ footer {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 
 }
 
@@ -143,6 +139,11 @@ footer {
 
 .cards {
   color: rgb(238, 246, 239);
+
+}
+
+.xizmatlar_h3 {
+  color: yellow
 }
 
 .job-title {
@@ -217,12 +218,13 @@ footer {
     /* menyu balandligi */
     transition: max-height 1s ease;
     position: fixed;
-    background-color: orangered;
+    background-image: linear-gradient(to bottom, rgba(136, 152, 186, 0.9), rgba(8, 39, 60, 0.9));
     width: 100%;
 
     color: black;
     left: 0;
     z-index: 2;
+
 
 
 
@@ -316,7 +318,7 @@ a {
 
   text-align: center;
 
-  color: orangered;
+  color: #f28c28;
   padding: 10px 100px;
   margin: 0;
 }
@@ -348,6 +350,7 @@ a {
 .linklar {
   margin: 20px;
   color: white;
+
 
 
 
