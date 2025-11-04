@@ -18,17 +18,26 @@
 
   }
 
+  .texnik_skills {
+    flex-direction: column;
+    gap: 10px;
+  }
+
 
 
 
 }
 
-.menu {
-  display: flex;
-}
+
 
 .about-text {
-  color: white;
+  color: rgb(153, 148, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 20px 0px;
+
 
 
 
@@ -42,26 +51,28 @@
 }
 
 .about-h2 {
-  color: orangered;
+  color: rgb(237, 105, 57);
 }
 
 .skills {
   margin-top: 20px;
-  color: rgb(206, 170, 152);
+  color: rgb(119, 230, 132);
   text-shadow: 1px 1px 5px rgba(3, 29, 14, 0.8);
 
-  font-weight: 600;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-weight: 400;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .texnik_skills {
 
-  background-color: rgba(72, 52, 173, 0.5);
-  padding: 20px;
+  /* background-image: linear-gradient(to bottom, rgba(46, 33, 110, 0.5), rgba(72, 59, 165, 0.5)); */
+  padding: 10px;
+  border: 1px solid rgb(38, 125, 143);
   border-radius: 3px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1),
+  box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.1),
     -2px -2px 10px rgba(0, 0, 0, 0.1);
-  border: 1px solid white;
+  display: flex;
+
 
 }
 
@@ -85,24 +96,32 @@
 
 .eng_usti {
   position: sticky;
-  top: 0;
+  top: 0px;
   /* qaysi joyda yopishib qolishini belgilaydi */
-  background: #08273c;
+  background-color: rgba(8, 39, 60);
   color: white;
-  padding: 10px;
+  padding: 0px;
   z-index: 1;
+
 }
 
-.about_quti {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-  gap: 20px;
-}
+
 
 .portret {
   display: block;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
+
+
+
+}
+
+.extra_skills {
+  border: 1px solid rgb(38, 125, 143);
+  padding: 10px;
+  color: rgb(211, 223, 179);
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1),
+    -2px -2px 10px rgba(0, 0, 0, 0.1);
+
 }

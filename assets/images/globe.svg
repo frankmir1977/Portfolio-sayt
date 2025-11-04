@@ -1,0 +1,6 @@
+<svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+  <mask id="earth-mask" maskUnits="objectBoundingBox">
+    <rect width="1" height="1" fill="white"/>
+    <circle cx="0.5" cy="0.5" r="0.45" fill="black"/>
+  </mask>
+</svg>

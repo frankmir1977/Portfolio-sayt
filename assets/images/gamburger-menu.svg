@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" viewBox="0 0 40 30">
-  <rect y="0" width="40" height="5" fill="yellow"/>
-  <rect y="12.5" width="40" height="5" fill="white"/>
-  <rect y="25" width="40" height="5" fill="yellow"/>
+  <rect y="0" width="40" height="5" fill="orangered"/>
+  <rect y="12.5" width="40" height="5" fill="orange"/>
+  <rect y="25" width="40" height="5" fill="orangered"/>
 </svg>
